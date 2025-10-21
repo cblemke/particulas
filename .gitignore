@@ -1,0 +1,33 @@
+# Rust/WASM
+/particulas_back/target/
+/particulas_back/pkg/
+/particulas_back/Cargo.lock
+/particulas_back/.appveyor.yml
+/particulas_back/.travis.yml
+
+# Node
+/particulas_front/web/node_modules/
+/particulas_front/web/dist/
+*.log
+npm-debug.log*
+
+# Build artifacts
+*.wasm
+*.wasm.d.ts
+*.js.map
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
